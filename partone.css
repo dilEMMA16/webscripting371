@@ -1,0 +1,46 @@
+﻿.button
+{
+    float: left;
+    padding: 10px 24px;
+    border: 10px black;
+    margin:20px;
+}
+
+
+#Button1 :active
+{
+    background-color:black;
+    color: white;
+} 
+
+
+.radio{
+    float: left;
+}
+
+#Button4
+{
+    background-color : black;
+    border-radius : 5px;
+    color:white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom:10px;
+    padding-top: 10px;
+    margin: 10px;
+    float: right;
+    
+}
+
+mark.red{
+    color:red;
+    background: none;
+}
+
+}
+
+div{
+    background-color : dimgrey;
+    padding:20px;  
+}
+

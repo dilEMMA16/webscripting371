@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="partone.css" rel="stylesheet"/>
+    <title>Delta Flights</title>
+</head>
+
+<body>
+    <div>
+        <input id="Button1" type="button" value="ROUND TRIP" />
+        <input id="Button2" type="button" value="ONE WAY" />
+        <input id="Button3" type="button" value="MULTI CITY" />
+        <br />
+        <hr />
+
+
+        <p>
+            SHOW PRICE IN:
+            <input id="Radio1" type="radio" name="aa" /> MONEY
+            <input id="Radio2" type="radio" name="aa" /> MILES<br />
+        </p>
+        <hr />
+        <p><mark class="red">*</mark> Indicates required information</p>
+        <br />
+
+        <table cellspacing="15" cellpadding="5">
+            <tr>
+                <td><mark class="red">*</mark> FROM </td>
+                <td><mark class="red">*</mark> TO </td>
+            </tr>
+            <tr>
+                <td><input id="Text2" type="text" placeholder="City or Airport" required size="50"/></td>
+                <td><input id="Text1" type="text" placeholder="City or Airport" required size="50"/></td>
+            </tr>
+
+        </table>
+       <br />
+        
+
+        <input id="Checkbox1" type="checkbox" /> Compare Nearby Airports <br /> <br />
+    </div>
+    <hr />
+
+    <table cellspacing="5" cellpadding="10" style="float: left;">
+        <tr>
+            <td><mark class="red">*</mark>DEPARTURE DATE</td>
+            <td>TIME</td>
+            <td><mark class="red">*</mark> RETURN DATE</td>
+            <td>TIME</td>
+        </tr>
+        <tr>
+            <td><input id="Text3" type="text" placeholder="mm/dd/yyyy" required /></td>
+            <td>
+                <select id="Select1">
+                     <option>anytime</option>
+                     <option>noon</option>
+                     <option>morning</option>
+                     <option>night</option>
+                     </select>
+            </td>
+            <td><input id="Text4" type="text" placeholder="mm/dd/yyyy" required /></td>
+            <td>
+                <select id="Select2">
+                    <option>anytime</option>
+                    <option>noon</option>
+                    <option>morning</option>
+                    <option>night</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><input id="Checkbox2" type="checkbox" /> Flexible Dates (Calendar View)</td>
+        </tr>
+       
+    </table>
+    <br />
+    <br /> 
+    <br />
+    <br />
+    <br />
+    <br /> 
+    <br />
+    <br />
+ 
+
+
+    <hr />
+    <table cellspacing="5" cellpadding="10">
+        <tr>
+            <td>PASSENGERS</td>
+            <td></td>
+            <td>Meeting Event Code</td>
+        </tr>
+        <tr>
+            <td><select id="Select3">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    </select></td>
+            <td>Infant and travel guidelines and restrictions</td>
+            <td><input id="Text5" type="text" placeholder="Optional" /></td>
+        </tr>
+    </table>
+    
+    <hr />
+
+    SEARCH BY: <br />
+
+    <table cellspacing="5" cellpadding="10">
+        <tr>
+            <td><input id="Radio3" type="radio" name="bb" /> Show Best Fares For</td>
+            <td><select id="Select4">
+                <option>Basic Economy</option>
+                <option>Non Basic Economy</option>
+                </select></td>
+            <td><input id="Checkbox3" type="checkbox" /> Refundable Flights Only</td>
+        </tr>
+        <tr>
+            <td><input id="Radio4" type="radio" name="bb" />Fare Class</td>
+            <td><select id="Select5">
+                <option>Basic Economy E (or higher)</option>
+                <option>Basic Economy Less Than E</option>
+                </select></td>
+            <td><input id="Checkbox4" type="checkbox" /> Nonstop Flights Only</td>
+        </tr>
+
+
+    </table>     
+
+        View or Redeem Certificates, eCredits, or Gift Cards
+        <br />
+        <br />
+        <br />
+        <div>
+            Ticket purchase is subject to all terms in Delta's applicable Contract of Carriage.
+            <input id="Button4" type="button" value="FIND FLIGHTS" />
+        </div>
+
+</body>
+</html>
